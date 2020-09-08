@@ -7,7 +7,7 @@
     "start": "npm run build-prod && npm run server",
     "server": "node src/server/server.js",
     "build-prod": "webpack --config webpack.prod.js",
-    "build": "webpack"
+    "build": "webpack --config webpack.conf.js"
   },
   "keywords": [],
   "author": "",
